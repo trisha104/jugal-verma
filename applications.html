@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DRONE TECHNOLOGY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+<style>
+*{ margin:0;
+padding:0;
+font-family: 'Abel', sans-serif;
+}
+
+
+.myDiv { 
+min-height: 100vh;
+width:100%;
+background-image: url("images/coolbg.jpg");
+background-position:center;
+background-size: cover;
+position: relative;
+}
+
+nav{ display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items:center;}
+
+nav img{ width:250px;
+}
+
+.navLink{
+flex:1;
+text-align:right;
+}
+
+
+.navLink ul li {
+list-style: none;
+display: inline-block;
+padding:2px 13px;
+position: relative;
+font-family: 'Abril Fatface', cursive; }
+
+
+.navLink ul li a {
+text-decoration: none;
+color: #fff;
+font-size: 23px;
+}
+
+.navLink ul li::after {
+content:'';
+width:0%;
+height: 2px;
+background:#fff;
+margin:auto;
+display: block;
+transition: 0.5s;}
+
+
+.navLink ul li a.fourth:hover {
+color: black;
+background-color:#CBCBC4;
+padding: 12px;
+transition:0.5s;}
+
+
+
+.navLink ul li:hover::after{ width:100%;}
+.nav1
+{
+  padding: 40px 50px;
+  margin: 10px;
+  border:3px solid #0BFFF0;
+  width:80%;
+  background-color: transparent;
+  margin:auto;
+  overflow: hidden;
+  border-radius:20px;
+}
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 240px; 
+  height: 240px; 
+  padding: 10px; 
+
+}
+
+#slideshow > div { 
+  position: absolute; 
+  top: 50px; 
+  left: 50px; 
+  right: 50px; 
+  bottom: 50px; 
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.uses10{
+  padding: 35px 25px;
+  margin: 13%;
+  border: 3px solid #0bfff0;
+  border-radius:20px;
+}  
+.img4{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:80%%;
+height:400px;}
+
+.uses { 
+border: 3px solid #0bfff0;
+border-radius: 20px;
+padding: 35px 25px;
+margin: 5%;
+}
+
+.appimg {
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+height:700px;
+cursor:pointer;}
+
+
+.l1{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l2{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l3{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l4{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.l5{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l6{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l7{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l8{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l9{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.l10{
+border:3px solid #0bfff0;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.Links {
+background-image:url(black.jpg);
+background-position: center;
+position:relative;
+background-size: cover;
+width:100%;
+min-height:100vh;
+}
+
+
+.ggg {
+font-size:30px;
+
+.b in b {
+border:5px solid yellow;
+border-radius:15px;
+margin: 30px 30px 30px 30px;
+padding: 40px 50px;
+color:white;}
+
+
+
+
+
+
+
+
+_____________________
+
+</style>
+</head>
+
+<body>
+<section class="myDiv">
+<nav>
+<img src="images/drone logo.png" alt="drone" style="cursor:pointer;">
+<div class="navLink">
+<ul>
+  <li><a class="first" href="drone with slideshow.html" target="_blank">Home</a></li>
+  <li><a class="second" href="about.html" target="_blank">About</a></li>
+  <li><a class="third" href="elements.html" target="_blank">Elements</a></li>
+  <li><a class="fourth" href="applications.html" target="_blank" >Applications</a></li>
+  <li><a class="fifth" href="cateogries.html" target="_blank" >Cateogries</a></li>
+  </ul>
+</div>
+</nav>
+
+<div class="uses10">
+<img src="images/cool drone.jpg" alt="Sorry an error occured" class="img4"> 
+<br><br>
+<h1 style="color:white; font-size:45px; font-family: 'Abel', sans-serif;;  text-align:center;   "> Initially known for their military use, drones are now being used by individual entrepreneurs, SMEs, and large companies to accomplish various other tasks. <br>
+According to Juniper research, by the year 2020, 16 million drones will be sold in the commercial markets of the world and several regulations will be lifted off drone technology. <br>
+<div class="b in b">Captured below are 10 stunning applications of drone technology.</div>
+</div>
+
+<div class="uses">
+
+<img src="images/edited..png" alt="Sorry an error occured" class="appimg"><br><br>
+
+
+<font color="white" size="9px">
+
+<a class="trfirst" style="text-decoration:none; color:white;" href="#quote1">1. AERIAL PHOTOGRAPHY</a><br>
+
+<a style="text-decoration:none; color:white;" href="#quote2">2. SHIPPING AND DELIVERY </a><br>
+
+<a style="text-decoration:none; color:white;"  href="#quote3">3. GEOGRAPHIC MAPPING  </a><br>
+
+<a style="text-decoration:none; color:white;"  href="#qoute4"> 4. DISASTER MANAGEMENT </a><br>
+
+<a style="text-decoration:none; color:white;"  href="#quote5"> 5. PRECISION AGRICULTURE </a><br>
+
+<a  style="text-decoration:none; color:white;" href="#quote6"> 6. SEARCH AND RESCUE </a><br>
+
+<a  style="text-decoration:none; color:white;" href="#quote7"> 7. WEATHER FORECAST </a><br>
+
+<a  style="text-decoration:none; color:white;" href="#quote8"> 8. WILDLIFE MONITERING </a><br>
+
+<a  style="text-decoration:none; color:white;" href="#quote9"> 9. LAW ENFORCEMENT</a><br>
+
+<a  style="text-decoration:none; color:white;" href="#quote10"> 10. ENTERTAINMENT</a><br>
+
+</font>
+</div>
+<br><br><br>
+
+</section>
+
+<section class="Links">
+<br><br><br><br><br><br><br>
+
+
+
+<div class="ggg">
+
+<div class="l1"><a name="quote1"> 1. AERIAL PHOTOGRAPHY <br><br>Drones are now being used to capture footage that would otherwise require expensive helicopters and cranes. <br>
+Fast paced action and sci-fi scenes are filmed by aerial drones, thus making cinematography easier. <br>
+These autonomous flying devices are also used in real estate and sports photography. <br>
+Furthermore, journalists are considering the use of drones for collecting footage and information in live broadcasts.</a></div><br><br><br>
+
+<div class="l2"><a name="quote2">2. SHIPPING AND DELIVERY<br><br> Major companies like Amazon, UPS, and DHL are in favor of drone delivery. <br>
+Drones could save a lot of manpower and shift unnecessary road traffic to the sky.<br>
+ Besides, they can be used over smaller distances to deliver small packages, food, letters, medicines, beverages and the like. </a></div><br><br><br>
+
+<div class="l3"><a name="quote3">3. GEOGRAPHIC MAPPING<br><br>Available to amateurs and professionals, drones can acquire very high-resolution data and download imagery in difficult to reach locations like coastlines, mountaintops, and islands. <br>
+They are also used to create 3D maps and contribute to crowd sourced mapping applications. </a></div><br><br><br>
+
+<div class="l4"><a name="quote4">4. DISASTER MANAGEMENT<br><br>Drones provide quick means, after a natural or man-made disaster, to gather information and navigate debris and rubble to look for injured victims. <br>
+Its high definition cameras, sensors, and radars give rescue teams access to a higher field of view, saving the need to spend resources on manned helicopters.  <br>
+Where larger aerial vehicles would prove perilous or inefficient, drones, thanks to their small size, are able to provide a close-up view of areas. </a></div><br><br><br>
+
+<div class="l5"><a name="quote5">5. PRECISION AGRICULTURE<br><br> Farmers and agriculturists are always looking for cheap and effective methods to regularly monitor their crops.<br>
+ The infrared sensors in drones can be tuned to detect crop health, enabling farmers to react and improve crop conditions locally, with inputs of fertilizer or insecticides.<br> 
+ It also improves management and effectuates better yield of the crops. <br>
+In the next few years, nearly 80% of the agricultural market will comprise of drones.</a></div><br><br><br>
+
+<div class="l6"><a name="quote6">6. SEARCH AND RESCUE <br><br>Presence of thermal sensors gives drones night vision and makes them a powerful tool for surveillance. <br>
+Drones are able to discover the location of lost persons and unfortunate victims, especially in harsh conditions or challenging terrains.<br>
+ Besides locating victims, a drone can drop supplies to unreachable locations in war torn or disaster stricken countries.<br>
+ For example, a drone can be utilized to lower a walkie-talkie, GPS locator, medicines, food supplies, clothes, and water to stranded victims before rescue crews can move them to some place else. </a></div><br><br><br>
+
+<div class="l7"><a name="quote7"> 7. WEATHER FORECAST<br><br> Drones are being developed to monitor dangerous and unpredictable weather. <br>
+Since they are cheap and unmanned, drones can be sent into hurricanes and tornadoes, so that scientists and weather forecasters acquire new insights into their behavior and trajectory. <br>
+Its specialized sensors can be used to detail weather parameters, collect data, and prevent mishaps.</a></div><br><br><br>
+
+<div class="l8"><a name="quote8">8. WILDLIFE MONITORING <br><br>Drones have served as a deterrent to poachers.<br>
+ They provide unprecedented protection to animals, like elephants, rhinos, and big cats, a favorite target for poachers.<br> 
+ With its thermal cameras and sensors, drones have the ability to operate during the night. <br>
+ This enables them to monitor and research on wildlife without causing any disturbance and provides insight on their patterns, behavior, and habitat.
+ </a></div><br><br><br>
+
+<div class="l9"><a name="quote9">9. LAW ENFORCEMENT<br><br> Drones are also used for maintaining the law. <br>
+They help with the surveillance of large crowds and ensure public safety. <br>
+They assist in monitoring criminal and illegal activities. <br>
+In fact, fire investigations, smugglers of migrants, and illegal transportation of drugs via coastlines, are monitored by the border patrol with the help of drones.</a></div><br><br><br>
+
+<div class="l10"><a name="quote10">10. ENTERTAINMENT<br><br>   Drones are being developed to provide entertainment for players so that they can be used in fight clubs. <br>
+Known as a cage match, two contenders and their drones are put up against each other. <br>
+The destruction of any of the player’s drones results in the other’s win. Moreover, artificial drone intelligence is used in several ways to capture videos and photographs, for example, the Dronie, which is used to take selfies.</a></div><br><br><br>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DRONE TECHNOLOGY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<style>
+*{ margin:0;
+padding:0;
+font-family: 'Abel', sans-serif;}
+
+
+.myDiv { 
+min-height: 100vh;
+width:100%;
+background-image: url("images/coolbg.jpg");
+background-position:center;
+background-size: cover;
+position: relative;
+}
+
+nav{ display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items:center;}
+
+nav img{ width:250px;
+}
+
+.navLink{
+flex:1;
+text-align:right;
+}
+
+
+.navLink ul li {
+list-style: none;
+display: inline-block;
+padding:2px 13px;
+position: relative; }
+
+
+.navLink ul li a {
+text-decoration: none;
+color: #fff;
+font-size: 23px;
+}
+
+.navLink ul li::after {
+content:'';
+width:0%;
+height: 2px;
+background:#fff;
+margin:auto;
+display: block;
+transition: 0.5s;}
+
+.navLink ul li a.fifth:hover {
+color: black;
+background-color:#E1ECD5;
+padding: 12px;
+transition:0.5s;}
+
+
+
+.navLink ul li:hover::after{ width:100%;}
+.nav1
+{
+  padding: 40px 50px;
+  margin: 10px;
+  border:3px solid #0BFFF0;
+  width:80%;
+  background-color: transparent;
+  margin:auto;
+  overflow: hidden;
+  border-radius: 20px;
+  
+}
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 240px; 
+  height: 240px; 
+  padding: 10px; 
+
+}
+
+#slideshow > div { 
+  position: absolute; 
+  top: 50px; 
+  left: 50px; 
+  right: 50px; 
+  bottom: 50px; 
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+#nav2 {
+padding: 40px 50px;
+  background-color: transparent;
+  margin: 10px;
+  border:3px solid #0BFFF0;
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+  border-radius:20px;
+    }
+
+
+
+
+
+.linker1 { 
+min-height: 100vh;
+width:100%;
+background-image: url("black.jpg");
+background-position:center;
+background-size: cover;
+position: relative;
+}
+
+.internal linking 2 {
+margin-left:50px;
+font-family: 'Abel', sans-serif;
+font-size: 15px;}
+
+.center{ display:block;
+margin-left:auto;
+margin-right:auto;
+cursor:pointer;
+width:50%;
+height:50%; }
+
+.linker2{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;
+}
+
+.linker3{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center2 {
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+.center3{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+.linker4{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center4{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+.linker5{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+
+.linker6{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center5{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+.linker7{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center6{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+
+.linker8{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center7{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+.linker9{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center8{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+.linker10{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center9{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+.linker11{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center10{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+.linker12{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center11{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+.linker13{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center12{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+.linker14{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center13{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+
+.linker15{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center14{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px}
+
+.linker16{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center15{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px}
+
+.linker17{border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center16{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px}
+
+.linker18{
+border:3px solid black;
+border-radius:20px;
+margin: 50px 50px 50px 50px;
+text-align:center;
+padding:40px 50px;
+color:white;}
+
+.center17{
+display: block;
+margin-left: auto;
+margin-right:auto; 
+width:50%;
+height:430px;}
+
+.imgiii {
+width:80%;
+padding:20px;
+height:500px;
+display:block;
+margin-left:auto;
+margin-right:auto;}
+
+.video {
+ border:3px solid #0bfff0;
+border-radius: 20px;
+padding: 100px 100px;
+margin: 100px;
+background-color:transparent;}
+
+.innervdeo {
+margin:auto;
+
+}
+.tablecontents a {
+font-size:25px;}
+
+.tablecontents ul li a:hover {
+color:blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+<section class="myDiv">
+<nav>
+<img src="images/drone logo.png" alt="drone" style="cursor:pointer;">
+<div class="navLink">
+<ul>
+  <li><a class="first" href="drone with slideshow.html" target="_blank">Home</a></li>
+  <li><a class="second" href="about.html" target="_blank">About</a></li>
+  <li><a class="third" href="elements.html" target="_blank">Elements</a></li>
+  <li><a class="fourth" href="applications.html" target="_blank" >Applications</a></li>
+  <li><a class="fifth" href="cateogries.html" target="_blank" >Cateogries</a></li>
+  </ul>
+</div>
+</nav>
+
+<div class="video">
+
+<video width="100%" min-height="100%" max-height:"200%" class="innervdeo" controls >
+   <source src="images/video categories.mp4" type="video/mp4">
+   <source src="images/video categories.ogg type="video/ogg">
+
+ Sorry Your Browser Is Letting This Video To Play 
+ </video>
+
+</div>
+
+
+
+<h1 style="color: #12B8EE; text-align: center; font-size: 85px;"> LIST OF 14 DIFFERENT <br>TYPES OF DRONES </h1><br><br><br>
+
+
+<div class="row">
+
+<div class="nav1">
+
+
+<div class="ïnternal linking">
+ 
+
+ 
+ <h1 style="color: #12B8EE; font-size:65px; padding:9px;"> Table Contents </h1></div>
+ 
+ <div class="tablecontents">
+ 
+ <ul style="list-type: square;color:white;" >
+
+ 
+<li> <a style="color: white;" href="#quote1"  >1. Single-rotor Drones </a></li><br>
+
+<li><a style="color: white;" href="#quote2">2. Multi-rotor Drones </a><br></li><br>
+
+<li><a style="color: white;" href="#quote3">3. Fixed-wing Drones </a></li><br>
+
+<li><a style="color: white;" href="#quote4"> 4. Fixed-wing Hybrid Drones </a><br></li><br>
+
+<li><a style="color: white;" href="#quote5"> 5. Small Drones </a><br></li><br>
+
+<li><a  style="color: white;" href="#quote6"> 6. Micro Drones </a><br></li><br>
+
+<li><a  style="color: white;" href="#quote7"> 7. Tactical Drones </a><br></li><br>
+
+<li><a style="color: white;"  href="#quote8"> 8. Reconnaissance Drones</a><br></li><br>
+
+<li><a style="color: white;"  href="#quote9"> 9. Large Combat Drones </a><br></li><br>
+
+<li><a style="color: white;"  href="#quote10"> 10. Non-Combat Large Drones </a><br></li><br>
+
+<li><a style="color: white;"  href="#quote11"> 11. Target and Decoy Drones </a><br></li><br>
+
+<li><a  style="color: white;" href="#quote12"> 12. GPS Drones </a><br></li><br>
+
+<li><a style="color: white;" href="#quote13"> 13. Photography Drones </a><br></li><br>
+
+<li><a style="color: white;" href="#quote14"> 14. Racing Drones</a><br></li><br>
+
+
+
+ </a><br></li>
+
+
+</div>
+
+
+</div>
+
+
+ 
+
+ </div>
+ </div>
+ <br><br><br><br><br><br><br><br>
+
+ 
+ </section>
+
+
+
+
+ 
+ 
+
+ 
+
+
+<section class="linker1">
+<br><br>
+
+<div class="internal linking 2">
+
+ 
+
+ 
+<div class="linker2"><a name="quote1"  style="font-size:30px;"><img src="images/single rotor.jpg" alt="Sorry an error occured" class="center"><br>These are by far some of the most basic types of drones. <br> As the name would imply, it employs only a single rotor (besides the tail unit in some cases) and can often generate thrust more efficiently than their multi-rotor counterparts.<br> This can make them ideal for longer flight times.
+
+That said, there are drawbacks to that design. First, the single blade design combined with their often gas-powered nature can mean that single-rotor drones can sometimes cost more than their counterparts.<br> What’s more, larger rotor blades mean a higher chance of one accidentally injuring you.<br>In addition, the drones are often not as stable, and while they can still hover over areas, they can also be more difficult to fly than drones that have multiple rotors to keep them balanced and airborne.<br>
+They can cost anywhere from $25K to a whopping $300K.
+
+ </a></div><br><br><br>
+
+<div class="linker3"><a name="quote2" style="font-size:30px;"><img src="images/multi rotor.jpg" alt="Sorry an error occured" class="center2"><br> Where a single-rotor drone looks like a helicopter and is able to maintain flight with a single rotor, these units have several rotors positioned at strategic points on the craft.<br> These extra rotors can make it easier for the craft to maintain its balance and keep hovering.<br>
+
+However, when it comes to different types of commercial drones, as a general rule of thumb, the more rotors you add, the less time the craft is able to remain airborne. As such, while these units offer good stability, they often top out at half an hour of flight time.<br>
+
+In addition, most types of multi-rotor drones are not able to carry a heavy payload, as this would disrupt the balance maintained by its offsetting rotors. The price varies widely, from $5k for starter units to $65k for top options.</a></div><br><br><br>
+
+<div class="linker4"><a name="quote3" style="font-size:30px;"><img src="images/fixed wing.jpg" alt="Sorry an error  occured " class="center3"><br> The lack of rotors and fixed-wing style of these drones make them more similar to controllable airplanes rather than the helicopter style of other drones.<br> Rather than rotors, their wings provide vertical lift, which means they only need enough energy to keep moving forward, making them ideal long-range drones.<br>
+
+Some fixed-wing drones can be gas powered. Where multi-rotor units cannot remain airborne long, a fixed-wing drone can remain in the air for as long as 16 hours of continuous flight. However, they are not able to hover the way drones with helicopter-style rotors can.<br>
+
+The lack of a rotor also makes them harder to land. They must be very carefully brought in for an extremely soft “belly landing,” and in less-than-expert hands, this can go very wrong very quickly.<br> These types of drones generally cost between $25K and $120K. <br></a></div><br><br><br>
+
+
+<div class="linker5"><a name="quote4" style="font-size:30px;"><img src="images/fixed wing hybrid.jpg" alt="Sorry an error occured" class="center4"><br> This types of drone attempt to take the best from fixed-wing and rotor-based designs, making for drones that feature both. A fixed-wing hybrid drone will tend to have a couple rotors attached to the ends of fixed wings.<br>
+
+Many of these drones are actually based on designs for aircraft that have been around since the 1950s and 1960s.<br> However, the technology to bring them to life was considered too difficult, and they were largely shelved before the rise of drones.<br>
+
+These units are still rather experimental, and so are far less commercially available than their single-rotor, multi-rotor, and fixed-wing counterparts.<br> However, with several companies developing them, they may well be the wave of the future.<br>
+
+  </a></div><br><br><br>
+
+<div class="linker6"> <a name="quote5" style="font-size:30px;"> <img src="images/small drones.png" alt="Sorry an error occured" class="center5"> <br> As opposed to the first four drone types listed here, all of which can easily cost tens or even hundreds of thousands of dollars, these tend to only cost up to around $100. <br>“Small” in this context typically means between 20 and 80 inches long.<br>
+
+These drones are strictly recreational and usually cannot perform many of the commercial functions of which some of those other models are capable.<br> For example, when properly mounted, cameras onboard highly stable multi-rotor can capture stunning aerial pictures and video.<br>
+
+By contrast, small drones are usually too light and do not have the stability necessary for the picture perfect balance required for accurate picture taking. Nevertheless, these options can be a great inexpensive intro to the world of drones for hobbyists and children. <br> </a></div><br><br><br>
+
+
+<div class="linker7"> <img src="images/micro drones.jpg" alt="Sorry an error occured" class="center6"> <a name="quote6" style="font-size:30px;"><br> While smaller drones may mean recreation in the eyes of consumers, for militaries who use drones, micro drones are all business.<br> The most well-known example of this type of drone in action today is the Black Hornet, manufactured for the British military.<br>
+
+Since their adoption in 2013, these tiny 1” x 4” drones have been used by the British military to look around walls and other installations in Afghanistan. While cameras may be too much for recreational small drones, the special microcameras on these small drones can provide useful intelligence.<br>
+
+When they are not in use, Black Hornets can be stored in a special belt.<br> They can fly for up to 25 minutes on a single battery charge, and have a range of up to a mile.<br> In addition, some Black Hornets have been outfitted with infrared cameras.</a></div><br><br><br><br><br>
+
+
+<div class="linker8"> <img src="images/tactical drones.jpg" alt="Sorry an error occured" class="center7"> <a name="quote7" style="font-size:30px;"><br>These drones are large enough to not be pocket-sized, while still being far smaller than the type used for general combat and larger tasks.<br> The preferred tactical drone of the US military is the Raven, which measures 4.5 ft and weighs 4.2 lbs.<br>
+
+These types of drones are often used for surveillance work. As with the Black Hornets, the Ravens are capable of being outfitted with special infrared cameras, helping them supply soldiers with an accurate picture of the area even in the nighttime.<br>
+
+The units come with onboard GPS technology. While they are on the simple side and do not boast a lot of bells and whistles, this also makes them quite accessible and easy for soldiers to use without the need for special training.</a></div><br><br><br>
+
+
+<div class="linker9"> <img src="images/reconnaissance.jpg" alt="Sorry an error occured" class="center8"> <a name="quote8" style="font-size:30px;"><br> With another military drone class, we once again move up in size a bit to drones that are not designed to be handheld. Instead, these drones measure around 16 ft long, are launched from the ground, and are called Medium Altitude Long Endurance (MALE) or High Altitude Long Endurance (HALE) drones.<br>
+
+These drones are among the most commonly employed by militaries around the world.<br> The Heron, designed by Israeli Aerospace Industries, has manufactured drones of this nature for military recon use for the US, Canada, Turkey, India, Morocco, and Australia.
+<br>
+The drones in question can weigh over 2200 lbs and remain in the air for 52 hours straight at a cruising height of 35,000 ft. The German military makes use of another type of drone, the LUNA, which is less expensive than the Heron, but has shorter operational periods.</a></div><br><br><br>
+
+<div class="linker10"> <img src="images/large combat.jpg" alt="Sorry an error occured" class="center9"> <a name="quote9" style="font-size:30px;"><br>  <br>
+Chances are when you think of “drones” in a military sense, these are the types you imagine. Variants such as the Predator and Reaper, used by the US, are around 36 ft long and able to fire on targets with air-to-surface missiles and laser-guided bombs.<br>
+
+These units can operate for 14 hours over a range of a thousand miles.<br> These drones have been used for operations such as military strikes in Pakistan and other countries with which the US is not officially at war.<br>
+
+The US may be the most famous (or infamous) user of drones, but they are hardly alone.<br> Fellow NATO nations such as the UK, Spain, and France use them as well, while China has manufactured its own version, the CH-4, which has been bought by Egypt and Iraq.</a></div><br><br><br>
+
+<div class="linker11"> <img src="images/non combat.jpg" alt="Sorry an error occured" class="center10"> <a name="quote10" style="font-size:30px;"><br>By contrast, there are large drones that are not meant to be used in combat.<br> These can take on a variety of jobs, often reconnaissance, and are used for more large-scale recon missions than their miniscule Black Hornet and Raven counterparts.<br>
+
+For example, the Global Hawk, manufactured by Northrop Grumman, is primarily used over combat zones, but not meant for combat. Rather, it is used for surveillance, such as scanning cell phone calls.<br>
+
+Just because these drones do not engage in combat does not mean that they are not expensive. The Global Hawk, for example, can cost as much as $131 million, and that does not include ground infrastructure. </a></div><br><br><br>
+
+<div class="linker12"> <img src="images/target and decoy.jpg" alt="Sorry an error occured" class="center11"> <a name="quote11" style="font-size:30px;"><br> One of the most important things to keep in mind about military drones is that they can serve several functions depending on the situation.<br> For example, while some drones can be used for surveillance and others are meant for strike capabilities, these operate as decoys.<br>
+
+What those decoy missions look like, however, is bound to change depending on the individual nature of the mission.<br> As such, these types of military drones must be ready to act as decoys in any number of ways.<br>
+
+For example, some target and decoy drones can carry out their mission by simulating an incoming missile.<br> This can draw fire from ground anti-aircraft units, thereby distracting them from any actual combat drones or incoming missiles.<br>
+ </a></div><br><br><br>
+
+<div class="linker13"> <img src="images/gps drones.jpg" alt="Sorry an error occured" class="center12"> <a name="quote12" style="font-size:30px;"><br>Now that we’ve looked at the major types of drones for the commercial market as well as military use, let’s conclude by looking at a few specialty types, starting with drones that are specifically designed with GPS purposes in mind.<br>
+
+These drones work by linking up to satellites via a GPS hookup. They are then able to use this as a means of mapping out the rest of their flight, creating data that you can then extract and use for your own purposes. <br>
+
+For example, this can be a great way to map out large topographies.<br>
+
+Of course, this takes a lot of battery power.<br> As such, the best GPS drones are programmed to automatically return to their base when they start to run low on power or reach the edge of their operational range. </a></div><br><br><br>
+
+<div class="linker14"> <img src="images/photography.jpg" alt="Sorry an error occured" class="center13"> <a name="quote13" style="font-size:30px;"><br>We’ve already touched on drones’ photo-taking capabilities. While a few smaller options can take limited photos and there are obviously several drones that are capable of doing so for militaries, if you are looking to take professional photos you’ll want a commercial drone specially designed to do that.<br>
+
+As indicated above, to get the kind of stability that is necessary for taking a good picture or video, you are going to want drones that feature multiple rotors.<br>
+
+If you are looking to take professional-grade shots, you will want to make sure that your drone is outfitted with a professional-grade camera.<br> High-resolution pictures can be taken with 4K camera drones. Some photography drones also make use of precision stability and automated flight modes for taking pictures over vast spaces.
+ </a></div><br><br><br>
+
+<div class="linker15"> <img src="images/racing.jpg" alt="Sorry an error occured" class="center14"> <a name="quote14" style="font-size:30px;"><br> If it has an engine, chances are people will get around to wanting to race them, and that’s certainly the case with one of these favorite forms of hobbyist-friendly drones.<br>
+
+Racing drones can reach speeds of up to 60 miles per hour.<br> That said, all of that power concentrated on a single purpose means that they often don’t enjoy the same longevity of flight time as their counterparts.<br>
+
+Whether you are looking to build your own racing drone from scratch or buy one, you’ll want to look to companies like Walkera for guidance, as their units are among the fastest and can cost under $300. </a></div><br><br><br>
+
+
+</div>
+</div>

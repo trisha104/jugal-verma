@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DRONE TECHNOLOGY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+<style>
+*{ margin:0;
+padding:0;
+font-family: 'Abel', cursive;}
+
+
+.myDiv { 
+min-height: 100vh;
+width:100%;
+background-image: url("images/coolbg.jpg");
+background-position:center;
+background-size: cover;
+position: relative;
+}
+
+nav{ display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items:center;}
+
+nav img{ width:250px;
+}
+
+.navLink{
+flex:1;
+text-align:right;
+}
+
+
+.navLink ul li {
+list-style: none;
+display: inline-block;
+padding:2px 13px;
+position: relative; }
+
+
+.navLink ul li a {
+text-decoration: none;
+color: #fff;
+font-size: 23px;
+}
+
+.navLink ul li::after {
+content:'';
+width:0%;
+height: 2px;
+background:#fff;
+margin:auto;
+display: block;
+transition: 0.5s;}
+
+.navLink ul li a.second:hover {
+color: black;
+background-color:#E1ECD5;
+padding: 12px;
+transition:0.5s;}
+
+
+
+.navLink ul li:hover::after{ width:100%;}
+.nav1
+{
+  padding: 40px 50px;
+  margin: 10px;
+  border:3px solid #0BFFF0;
+  width:80%;
+  background-color: transparent;
+  margin:auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  width: 240px; 
+  height: 240px; 
+  padding: 10px; 
+
+}
+
+#slideshow > div { 
+  position: absolute; 
+  top: 50px; 
+  left: 50px; 
+  right: 50px; 
+  bottom: 50px; 
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.image {
+margin-left:auto;
+margin-right: auto;
+display:block;
+}
+
+
+</style>
+</head>
+
+<body>
+<section class="myDiv">
+<nav>
+<img src="images/drone logo.png" alt="drone" style="cursor:pointer;">
+<div class="navLink">
+<ul>
+  <li><a class="first" href="drone with slideshow.html" target="_blank">Home</a></li>
+  <li><a class="second" href="about.html" target="_blank">About</a></li>
+  <li><a class="third" href="elements.html" target="_blank">Elements</a></li>
+  <li><a class="fourth" href="applications.html" target="_blank" >Applications</a></li>
+  <li><a class="fifth" href="cateogries.html" target="_blank" >Cateogries</a></li>
+  </ul>
+</div>
+</nav>
+
+<div class="row">
+<div class="nav1">
+<marquee behaviour= scroll;
+scrollamount=15;
+onmouseover="this.stop();"
+onmouseout="this.start();">
+<h1 style="font-size:55px;color:#13DCB1;text-align:center;cursor:pointer;"><i><b>-----THE HISTORY OF DRONES-----</b></i> </h1></marquee> <br>
+
+
+
+<p style="text-align:center;font-size:45px;color:white;">Many trace the history of drones to 1849 Italy, when Venice was fighting for its independence from Austria. Austrian soldiers attacked Venice with hot-air, hydrogen- or helium-filled balloons equipped with bombs.
+
+The first pilotless radio-controlled aircraft were used in World War I. In 1918, the U.S. Army developed the experimental Kettering Bug, an unmanned "flying bomb" aircraft, which was never used in combat.
+
+The first generally used drone appeared in 1935 as a full-size retooling of the de Havilland DH82B "Queen Bee" biplane, which was fitted with a radio and servo-operated controls in the back seat. The plane could be conventionally piloted from the front seat, but generally it flew unmanned and was shot at by artillery gunners in training. 
+
+ After concerns about the shooting down of spy planes arose, the military revisited the topic of unmanned aerial vehicles.
+</p></div>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</div>
+</section>
+
+</body>
+</html>
